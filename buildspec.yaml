@@ -7,7 +7,6 @@ phases:
     commands:
     - echo Running tests 
     - mvn test
-    - mvn clean package
     
 reports:
   php-reports:
