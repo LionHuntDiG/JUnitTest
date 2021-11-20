@@ -6,10 +6,10 @@ phases:
   build:
     commands:
     - echo Running tests 
-    - mvn test
+    - mvn clean test
     
 reports:
   php-reports:
     files:
       - "report.json"
-    file-format: "JUNITXML"
+    
